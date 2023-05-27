@@ -1,0 +1,25 @@
+.section-mini-banners{
+    margin:40px 0px;
+}
+.mini-banner-item{
+    flex-grow:1;
+    flex-shrink: 1;
+    flex-basis: calc(33% - 16px);
+}
+.mini-banner-item img{
+    border-radius:10px;
+}
+.mini-banner-item:not(:last-child){
+    margin-right: 16px;
+}
+
+@media(max-width:768px){
+    .mini-banner-item{
+      flex-basis: 100%;
+      margin-right:0;
+      margin-bottom:1em;
+    }
+    .mini-banner-item:not(:last-child){
+        margin-right: 0px;
+    }
+}
