@@ -1,0 +1,44 @@
+.section-annoucement-bar{
+    background: var(--annoucement-bar-bgclr);
+    color: var(--annoucement-bar-textclr);
+    padding:0rem 3rem;
+}
+.annoucement--wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 56px;
+    transition: all .2s ease-in-out;
+    position: relative;
+    width:100%;
+    font-size: 16px;
+}
+.close-icon{
+    position: absolute;
+    right:0;
+    cursor:pointer;
+}
+.close-icon svg{
+    color:var(--annoucement-bar-svgclr);
+    fill:var(--annoucement-bar-svgclr);
+}
+
+
+
+@media(max-width:768px){
+    .section-annoucement-bar{
+        padding:0rem 1rem; 
+    }
+    .annoucement--wrapper{
+        padding:8px 0px;
+    }
+    .annouce--text{
+        font-size: 12px;
+        text-align: center;
+        padding:0rem 0.5rem;
+        word-break: break-word;
+    }
+    .close-icon{
+        right:-10px;
+    }
+}

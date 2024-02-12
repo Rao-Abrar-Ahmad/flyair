@@ -1,0 +1,29 @@
+.section-featured-banners{
+    background: var(--section-featured-banner-bgclr);
+}
+.feature-banner_flex{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.featured-banner_item{
+    width:calc( 100% / 2 - 16px );
+    border-radius: 8px;
+}
+.featured-banner_item img{
+    border-radius: 8px;
+} 
+
+
+
+@media(max-width:480px){
+    .feature-banner_flex{
+        flex-direction: column;
+        gap:0.5rem;
+    }
+    .featured-banner_item{
+        width:100%;
+    }
+}

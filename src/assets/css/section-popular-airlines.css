@@ -1,0 +1,39 @@
+.main--popular-container{
+    display: flex;
+}
+.popular-airlines__logos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: center;
+}
+.main__airline-logo-wrapper{
+    width:100px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: calc((25% - 100px)/ 2);
+    margin-right: calc((25% - 100px)/ 2);
+}
+
+
+@media(max-width:992px){
+    .main--popular-container{
+        flex-direction: column;
+        text-align: center;
+        gap:0.5em;
+    } 
+}
+
+@media(max-width:560px){
+
+    .main__airline-logo-wrapper{
+        width:150px;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        margin-left: calc((25% - 100px)/ 2);
+        margin-right: calc((25% - 100px)/ 2);
+    } 
+    .popular-airlines__logos{
+        justify-content: space-around;
+    }
+}

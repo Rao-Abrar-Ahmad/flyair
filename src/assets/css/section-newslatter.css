@@ -1,0 +1,151 @@
+.section-newslatter{
+    background-color: var(--newslatter-section-bg);
+    color:black;
+}
+.newslatter__wrapper{
+    padding: 45px 0 40px;
+}
+.section__row-item{
+    -webkit-box-flex: 0;
+   
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+}
+.section__row-item.row-40{
+    -ms-flex: 0 0 40%;
+    flex: 0 0 40%;
+    max-width: 40%;
+}
+.section__row-item.row-60{
+    -ms-flex: 0 0 60%;
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+.newlatter__title{
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0;
+}
+.newlatter__form-wrap{
+    position: relative;
+    width:75%;
+}
+.newslatter__form{
+    box-shadow: 0 0 15px -5px rgb(0 0 0 / 40%);
+}
+.newslatter__input-field{
+    width: 80%;
+    height: 40px;
+    padding: 10px 0 10px 15px;
+    border-radius:5px 0px 0px 5px;
+    outline: 0;
+    border: 0;
+    float: left;
+    box-shadow: none;
+    -webkit-appearance: none;
+}
+.newslatter__submit-btn{
+    font-size: 14px;
+    height: 40px;
+    border: 0;
+    background-color: #009cde;
+    -moz-transition: background-color .3s ease,width .3s ease;
+    -o-transition: background-color .3s ease,width .3s ease;
+    -webkit-transition: background-color .3s ease,width .3s ease;
+    transition: background-color .3s ease,width .3s ease;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    border-radius:0px 5px 5px 0px;
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+}
+.newslatter__errors{
+    width:100%;
+    margin:10px;
+}
+.search---btn{
+    font-size: 14px;
+    height: 40px;
+    background-color: #009cde;
+    text-align: center;
+    cursor: pointer;
+    padding:10px 20px;
+    border:0;
+    outline:0;
+    color: white;
+}
+.main-search-left{
+    text-align: left;
+}
+.search-cta__heading{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.newslatter__block{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+@media(max-width:480px){
+ .section-newslatter .section--row{
+   flex-direction: column;
+  }
+  .section-newslatter .section--row > *{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  } 
+  .newlatter__form-wrap{
+    width:100%;
+  }
+  .main-search-left{
+    text-align: center;
+    margin-top:1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
